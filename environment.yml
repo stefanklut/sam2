@@ -1,0 +1,19 @@
+name: sam2
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - pytorch-cuda=12.4
+  - numpy
+  - matplotlib
+  - pillow
+  - pip
+  - IPython
+  - jupyter
+  - opencv
+  - pip:
+      - .
